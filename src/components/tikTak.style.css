@@ -1,0 +1,27 @@
+.game__box--container {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+
+.game__box-cell {
+  height: 5rem;
+  width: 5rem;
+  border: 2px solid black;
+  font-size: 50px;
+  color: aliceblue;
+}
+
+.game__box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.x {
+  background-color: red;
+}
+.o {
+  background-color: rgb(4, 0, 255);
+}
